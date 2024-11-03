@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+
+header {
+    background-color: blue;
+    color: blue;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.hewan-kurban {
+    margin-bottom: 40px;
+}
+
+.hewan-lish {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hewan-lish {
+    border-radius: 50%;
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(red, green, blue, alpha);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hewan-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(red, green, blue, alpha);
+}
+
+.kerbau {
+    background-color: blue;
+}
+
+.sapi {
+    background-color: green;
+}
+
+.kambing {
+    background-color: red;
+}
+
+.informasi {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 8px;
+}
+    
